@@ -11,8 +11,9 @@ public class Client extends Thread{
 		printState("boiled");
 	}
 	
-	public synchronized void printState(String state){
-		System.out.println(state + " Boiler " + Thread.currentThread().getId() + "= isBoiled: " + boiler.isBoiled() + ", isEmpty: " + boiler.isEmpty());
+	public void printState(String state){
+		System.out.println(state + " Boiler " + Thread.currentThread().getId() + boiler.toString());
+		
 	}
 
 	public static void main(String[] args) {

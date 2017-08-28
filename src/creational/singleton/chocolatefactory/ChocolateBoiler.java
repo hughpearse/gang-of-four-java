@@ -51,4 +51,8 @@ public class ChocolateBoiler {
 	public boolean isBoiled() {
 			return ChocolateBoiler.boiled;
 	}
+	
+	public synchronized String toString() {
+		return "= isBoiled: " + isBoiled() + ", isEmpty: " + isEmpty();
+	}
 }

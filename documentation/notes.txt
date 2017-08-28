@@ -1,0 +1,52 @@
+23 Gang of Four Design Patterns
+
+Creational Patterns
+Abstract Factory
+Builder
+Factory Method
+Prototype
+Singleton
+
+Structural Patterns
+Adapter
+Bridge
+Composite
+Decorator
+Facade
+Flyweight
+Proxy
+
+Behavioral Patterns
+Chain of Resp
+Command
+Interpreter
+Iterator
+Mediator
+Memento
+Observer
+State
+Strategy
+Template
+Visitor
+
+==============================
+
+Head First Design Patterns
+
+Creational Patterns
+The Factory Pattern
+The Singleton Pattern
+
+Structural Patterns
+The Adapter Pattern
+The Composite Pattern
+The Decorator Pattern
+The Facade Pattern
+The Proxy Pattern
+
+Behavioral Patterns
+The Command Pattern
+The Iterator Pattern
+The Observer Pattern
+The State Pattern
+The Template Method Pattern

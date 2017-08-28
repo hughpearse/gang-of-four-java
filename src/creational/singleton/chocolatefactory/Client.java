@@ -16,6 +16,22 @@ public class Client extends Thread{
 	}
 
 	public static void main(String[] args) {
+		/*
+		 * Details:
+		 * Allows variables to be shared by multiple threads with only 1 location in memory
+		 * 
+		 * outputs:
+		 * new Boiler 19= isBoiled: false, isEmpty: true
+		 * filled Boiler 19= isBoiled: false, isEmpty: false
+		 * new Boiler 20= isBoiled: true, isEmpty: false
+		 * filled Boiler 20= isBoiled: true, isEmpty: false
+		 * boiled Boiler 20= isBoiled: true, isEmpty: false
+		 * boiled Boiler 19= isBoiled: true, isEmpty: false
+		 * new Boiler 21= isBoiled: true, isEmpty: false
+		 * filled Boiler 21= isBoiled: true, isEmpty: false
+		 * boiled Boiler 21= isBoiled: true, isEmpty: false
+		 */
+		
 		Client obj = new Client();
 		Thread t1 = new Thread(obj);
 		Thread t2 = new Thread(obj);

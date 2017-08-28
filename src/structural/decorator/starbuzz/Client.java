@@ -4,10 +4,15 @@ public class Client {
 
 	public static void main(String[] args) {
 		/*
-		 *  abstract Beverage
-		 *  concrete Beverages: HouseBlend, DarkRoast, Espresso, Decaf
-		 *  abstract decorator CondimentDecorator
-		 *  concrete decorators: Mocha, Soy, SteamedMilk, Whip
+		 * Details:
+		 * abstract Beverage
+		 * concrete Beverages: HouseBlend, DarkRoast, Espresso, Decaf
+		 * abstract decorator CondimentDecorator
+		 * concrete decorators: Mocha, Soy, SteamedMilk, Whip
+		 *  
+		 *  outputs:
+		 *  House Blend, Soy; costs: 1.04
+		 *  House Blend, Soy, Mocha, Whip; costs: 1.34
 		 */
 		Beverage aliceBase = new HouseBlend();
 		Beverage aliceCondiment1 = new Soy(aliceBase);

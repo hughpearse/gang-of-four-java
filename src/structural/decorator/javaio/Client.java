@@ -8,6 +8,13 @@ import java.io.InputStream;
 public class Client {
 
 	public static void main(String[] args) {
+		/*
+		 * Details:
+		 * LowerCaseInputStream takes an InputStream types and adds an operation to it
+		 * 
+		 * Outputs:
+		 * the quick brown fox jumps over the lazy dog
+		 */
 		int c;
 		try {
 			InputStream fis = new FileInputStream("resources/ALLCAPS.txt");

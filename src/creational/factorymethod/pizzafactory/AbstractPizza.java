@@ -40,7 +40,6 @@ public abstract class AbstractPizza {
 		display.append("---- " + name + " ----\n");
 		display.append(dough + "\n");
 		display.append(sauce + "\n");
-		display.append(sauce + "\n");
 		for (String topping : toppings) {
 			display.append(topping + "\n");
 		}

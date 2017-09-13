@@ -1,33 +1,33 @@
 23 Gang of Four Design Patterns
 
 Creational Patterns
-Abstract Factory
-Builder
-Factory Method
-Prototype
-Singleton
-
+		Abstract Factory
+	Builder
+		Factory Method
+	Prototype
+		Singleton
+	
 Structural Patterns
-Adapter
-Bridge
-Composite
-Decorator
-Facade
-Flyweight
-Proxy
+		Adapter
+	Bridge
+	Composite
+		Decorator
+		Facade
+	Flyweight
+	Proxy
 
 Behavioral Patterns
-Chain of Resp
-Command
-Interpreter
-Iterator
-Mediator
-Memento
-Observer
-State
-Strategy
-Template method
-Visitor
+	Chain of Resp
+		Command
+	Interpreter
+		Iterator
+	Mediator
+	Memento
+		Observer
+	State
+	Strategy
+		Template method
+	Visitor
 
 ==============================
 
